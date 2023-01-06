@@ -9,7 +9,7 @@ Let's consider as prototype of quantum spin Hall insulator the Kane-Mele model a
 
 First create the tight-binding model in primitive cell using PythTB and Tbmodels packages. Create a supercell, for example including L lattice points in each lattice vector direction.  
 Then add disorder in the supercell, for instance Anderson disorder which is a uniformly distributed random on site potential.  
-For a reference implentation, look at [Kane-Mele example](spinv/example_models/kane_mele.py).
+For a reference implementation, look at [Kane-Mele example](spinv/example_models/kane_mele.py).
 
 ```python
 import numpy as np
