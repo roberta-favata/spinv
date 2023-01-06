@@ -1,0 +1,6 @@
+__pycache__/
+spinv/__pycache__/
+spinv/_pythtb/__pycache__/
+spinv/_tbmodels/__pycache__/
+.devcontainer/
+.pytest_cache
