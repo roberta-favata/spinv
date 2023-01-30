@@ -1,9 +1,5 @@
 # SPInv
-<<<<<<< HEAD
-SPInv (Single-Point Invariants) is a Python package calculating topological invariants in the supercell framework for non-crystalline 2D topological insulators. The single-point formulas for the Chern number [[Ceresoli-Resta](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.76.012405)] and for the spin Chern number [Favata-Marrazzo]{https://arxiv.org/abs/2301.02612} are implemented in SPInv. The code provides dedicated interfaces to tight-binding packages [PythTB](http://www.physics.rutgers.edu/pythtb/) and [Tbmodels](https://tbmodels.greschd.ch/en/latest/).
-=======
-SPInv (Single-Point Invariants) is a Python package calculating topological invariants in the supercell framework for non-crystalline 2D topological insulators. The single-point formulas for the Chern number [[Ceresoli-Resta](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.76.012405)] and for the spin Chern number [[arXiv](https://arxiv.org/abs/2301.02612)] are implemented in SPInv. The code provides dedicated interfaces to tight-binding packages [PythTB](http://www.physics.rutgers.edu/pythtb/) and [TBmodels](https://tbmodels.greschd.ch/en/latest/).
->>>>>>> origin/main
+SPInv (Single-Point Invariants) is a Python package calculating topological invariants in the supercell framework for non-crystalline 2D topological insulators. The single-point formulas for the Chern number [[Ceresoli-Resta](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.76.012405)] and for the spin Chern number [[Favata-Marrazzo](https://arxiv.org/abs/2301.02612)] are implemented in SPInv. The code provides dedicated interfaces to tight-binding packages [PythTB](http://www.physics.rutgers.edu/pythtb/) and [Tbmodels](https://tbmodels.greschd.ch/en/latest/).
 
 ## Quick start
 Here, two examples for calculating the single-point topological invariant in the supercell framework for tight-binding models in presence of Anderson disorder. 
