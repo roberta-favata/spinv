@@ -55,7 +55,10 @@ def single_point_spin_chern(model, spin='down', formula='symmetric', return_gap_
     n_sub = n_occ//2
 
     # Gamma point is where to performe the single diagonalization
-    point=[0.,0.]
+    if model.dim==2:
+        point=[0.,0.]
+    elif model.dim==3:
+        point=[0.,0.,0.]
 
     closing_gap = False
     spin_chern = []

@@ -24,10 +24,9 @@ def periodic_gauge(u_n0, b, model):
     #returns the matrix of occupied eigenvectors at the edge of the Brillouin zone imposing periodic gauge
     n_occ = model.occ
 
-    orb_c = orb_cart(model)
+    orb_c = orb_cart(model).reshape(-1,model.dim)
     vec_scal_b = orb_c @ b
     vec_exp_b = np.exp(-1.j*vec_scal_b)
-
     u_nb = vec_exp_b.T * u_n0[:n_occ,:]
 
     return u_nb
