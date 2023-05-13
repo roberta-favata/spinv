@@ -71,14 +71,11 @@ def single_point_spin_chern(model, spin='down', formula='symmetric', return_gap_
         closing_gap = True
 
     if closing_gap==True:
-        print('Closing PszP gap!!')
-        spin_chern.append(-20)
-        if formula=='both':
-            spin_chern.append(-20)
+        raise Exception('Closing PszP gap!!')
     else:
         #check symmetry of P Sz P spectrum 
         if (eval_pszp[n_sub]*eval_pszp[n_sub-1]>0):
-            print('P Sz P spectrum NOT symmetric!!!')
+            raise Exception('P Sz P spectrum NOT symmetric!!!')
         
         q_0 = np.zeros([n_occ, n_bande], dtype=complex)
         q_0 = eig_pszp @ u_n0[:n_occ,:]
